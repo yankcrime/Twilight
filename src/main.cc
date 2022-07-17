@@ -2,7 +2,7 @@
 // Recreation of the "twilight" wallpaper program from SGI's Irix.
 // Original source written by Howard Look.
 
-#include "SDL.h"
+#include "SDL2/SDL.h"
 #include <cstdlib>
 #include <iostream>
 #include <ctime>

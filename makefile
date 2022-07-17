@@ -3,8 +3,8 @@ EXE = twilight
 
 FLAGS = -std=c++17
 FLAGS += -Wall
-FLAGS += -ID:\SDL64\include\SDL2 -LD:\SDL64\lib
-FLAGS += -lmingw32 -lSDL2main -lSDL2
+#FLAGS += -ID:\SDL64\include\SDL2 -LD:\SDL64\lib
+FLAGS +=  -lSDL2main -lSDL2
 
 # FLAGS += -Wl,--subsystem,windows
 
